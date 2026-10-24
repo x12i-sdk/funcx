@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:02:20.306294+00:00",
+    "validatedAt": "2026-10-24T14:53:05.376973+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "79c4c6938bacb01ebaa087584d2c2317eff5858adafa35af57d3ad8204699404",
-    "manifestSha256": "6f07d2973266444f384fc362112c118b64c3a4d6afa39ebf10993c7bd993f697"
+    "manifestSha256": "a26c9e2470292dd3f45a91225108f5bfc79ff034d05f25bcabf21f2d1ce7639c"
   },
   "npmPackages": [
     "@x12i/funcx-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/funcx": {
+      "packageVersion": "4.12.0",
+      "title": "Normalize a structured response before applying an application contract",
+      "entrypoint": "src/funcx-example.mjs",
+      "command": "npm run example:funcx",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "d70c1bf3885d3009ffa77a06074de88d3d370d3d16cff257eb4d3feb452ad85c",
+      "manifestSha256": "a26c9e2470292dd3f45a91225108f5bfc79ff034d05f25bcabf21f2d1ce7639c",
+      "validatedAt": "2026-10-24T14:53:05.376973+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/funcx-example.mjs": "d70c1bf3885d3009ffa77a06074de88d3d370d3d16cff257eb4d3feb452ad85c",
+    "src/index.mjs": "79c4c6938bacb01ebaa087584d2c2317eff5858adafa35af57d3ad8204699404"
+  }
 }
